@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--
+    Simple landing page design for Sugar & Whisk Baking Co.
+    This one‑page website is intentionally lightweight and easy to replicate in a
+    drag‑and‑drop builder like Wix or Squarespace. All product images are
+    currently placeholders – swap the PNG files in the images directory with
+    your own photos to personalise the design. The accompanying CSS file
+    (style.css) controls the colours, typography and layout for a cohesive
+    coastal‑chic look inspired by palm fronds and pastel skies.
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sugar &amp; Whisk Baking Co.</title>
+    <!-- Google Fonts: using Playfair Display for headlines and Open Sans for body copy. -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-content">
+        <!-- Brand logo: replace the file in images/logo.png with your high‑resolution logo if needed -->
+        <img src="images/logo.png" alt="Sugar and Whisk Baking Co. logo" class="logo" />
+        <h1 class="brand">Sugar &amp; Whisk</h1>
+        <p class="tagline">Crafting sweet moments in Cape Coral</p>
+        <a href="#order" class="cta-btn">Order Now</a>
+      </div>
+    </header>
+
+    <!-- Our Favorites Section -->
+    <section id="favorites" class="section">
+      <h2 class="section-title">Our Favourites</h2>
+      <div class="products-grid">
+        <!-- Each product tile uses a placeholder image; replace the src attribute with your own photos. -->
+        <div class="product">
+          <img
+            src="images/product1.png"
+            alt="Pastel cupcakes with buttercream frosting"
+          />
+          <h3>Cupcakes</h3>
+          <p class="price">from $25/dozen</p>
+        </div>
+        <div class="product">
+          <img
+            src="images/product2.png"
+            alt="Cinnamon swirl cookies with glaze"
+          />
+          <h3>Swirl Cookies</h3>
+          <p class="price">from $30/dozen</p>
+        </div>
+        <div class="product">
+          <img
+            src="images/product3.png"
+            alt="Pink celebration cake"
+          />
+          <h3>Celebration Cakes</h3>
+          <p class="price">from $50</p>
+        </div>
+        <div class="product">
+          <img
+            src="images/product4.png"
+            alt="Confetti cookies with fruity bits"
+          />
+          <h3>Confetti Cookies</h3>
+          <p class="price">from $25/dozen</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section light">
+      <div class="about-content">
+        <h2 class="section-title">About Sugar &amp; Whisk</h2>
+        <p>
+          Founded by a passionate home baker, Sugar &amp; Whisk Baking Co. turns
+          everyday ingredients into unforgettable treats. Whether you’re
+          celebrating a birthday, welcoming a new baby or simply indulging your
+          sweet tooth, our made‑to‑order goodies are crafted with love and a
+          touch of flair. Located in sunny Cape Coral, we bring a bit of
+          tropical happiness to each bite.
+        </p>
+      </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="section">
+      <h2 class="section-title">Ready to indulge?</h2>
+      <p class="order-text">
+        To place an order, text us directly or fill out our easy form. We’ll
+        confirm availability and customisation options within 24 hours.
+      </p>
+      <div class="order-actions">
+        <a href="tel:+1234567890" class="cta-btn secondary">Text Us</a>
+        <!-- Link this button to your existing Google Form or order form -->
+        <a href="https://forms.gle/your-form-url" class="cta-btn">Order Form</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Sugar &amp; Whisk Baking Co. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
